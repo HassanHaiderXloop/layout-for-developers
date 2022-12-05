@@ -1,14 +1,21 @@
 
   /* Create three equal columns */
+  body{
+    background-color: #C9FFE2;
+  }
+  
   nav {
     border: 5px;
-    border-style: solid;
-    border-color: red;
+    display: flex;
+    justify-content: space-between;
     font-size: 30px;
+    padding: 40px;
+    background-color: #7dd181;
   }
   
 .row{
     display: flex;
+
 }
 
   .left {
@@ -17,32 +24,58 @@
     padding: 0px;
     text-align: center;
     border: 5px;
-    border-style: solid;
-    border-color: green;
+    
+  }
+
+  .kitten{
+    flex-direction: row;
+    order: 5;
+    border: 10%;
+    padding: 5%;
+    margin-bottom: 5px ;
+    margin-top: 5px ;
+
+  }
+  .kitten img{
+    float: left;
+    width: 50px;
+    display: flex;
+    
+  }
+
+
+  .kitten p{
+    float: center;
   }
 
   .center {
     float: left;
     width: 60%;
-    padding: 0px;
+    padding: 10px;
     text-align: center;
     border: 5px;
-    border-style: solid;
-    border-color: blue;
+    background-color: #96E8BC;
 
   }
 
   .right {
     float: left;
     width: 20%;
-    padding: 0px;
+    padding: 40px;
     text-align: center;
     border: 5px;
-    border-style: solid;
-    border-color: yellow;
+    flex-direction: row;
 
   }
+  .image_space{
+    margin-top: 40px;
+  }
 
+  .para {
+    float: left;
+    text-align: justify;
+    padding: 10px;
+  }
   
 
   
