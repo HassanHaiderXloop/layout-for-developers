@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
 
   /* Create three equal columns */
   nav {
@@ -10,42 +7,24 @@
     font-size: 30px;
   }
   
-  /*div.row {
-    border: 5px;
-    border-style: solid;
-    border-color:purple;
-  }*/
+.row{
+    display: flex;
+}
 
   .left {
     float: left;
-    width: 33%;
+    width: 20%;
     padding: 0px;
-
-  }
-
-  .center {
-    float: left;
-    width: 33%;
-    padding: 0px;
-
-  }
-
-  .right {
-    float: left;
-    width: 33%;
-    padding: 0px;
-
-  }
-
-  h2.lefth {
     text-align: center;
     border: 5px;
     border-style: solid;
     border-color: green;
-
   }
 
-  h2.centerh {
+  .center {
+    float: left;
+    width: 60%;
+    padding: 0px;
     text-align: center;
     border: 5px;
     border-style: solid;
@@ -53,12 +32,17 @@
 
   }
 
-  h2.righth {
+  .right {
+    float: left;
+    width: 20%;
+    padding: 0px;
     text-align: center;
     border: 5px;
     border-style: solid;
-    border-color: brown;
+    border-color: yellow;
 
   }
+
+  
 
   
