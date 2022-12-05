@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* Create three equal columns */
+  nav {
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    font-size: 30px;
+  }
+  
+  /*div.row {
+    border: 5px;
+    border-style: solid;
+    border-color:purple;
+  }*/
+
+  .left {
+    float: left;
+    width: 33%;
+    padding: 0px;
+
+  }
+
+  .center {
+    float: left;
+    width: 33%;
+    padding: 0px;
+
+  }
+
+  .right {
+    float: left;
+    width: 33%;
+    padding: 0px;
+
+  }
+
+  h2.lefth {
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: green;
+
+  }
+
+  h2.centerh {
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: blue;
+
+  }
+
+  h2.righth {
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: brown;
+
+  }
+
+  
